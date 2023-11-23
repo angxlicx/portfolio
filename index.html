@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelly Hoang</title>
 </head>
 <body>
   <header>
-  <h1>Kelly's Portfolio</h1>
-  <img src="assets/kelly logo.png" alt="Kelly Hoang logo">
-  <h6> Kelly Hoang's Logo</h6>
+    <img class="pop" src="assets/kelly logo.png" alt="Kelly Hoang logo">
+    <h1 class="portfolio">Kelly's Portfolio</h1>
+
   </header>
-  <ul> 
+  <ul class="navbar"> 
     <li><a href ="#Bio">Biography</a></li>
     <li><a href ="#goals">Goals</a></li>
     <li><a href ="#design">Designs</a></li>
@@ -42,36 +44,81 @@
       </tr>
       <aside>
       <tr>
-        <td><img src="assets\flowers.png" width="320" height="350" alt="Photo of 3 cats"></td>
-        <td><img src="assets\doggos.png" width="320" height="200" alt="dogs in a backyard with a women on a swing"></td>
-        <td><img src="assets\sword.jpg" width="260" height="360" alt="sword design"></td>
+        <td><img class="flowers" src="assets\flowers.png" width="320" height="350" alt="Photo of 3 cats"></td>
+        <td class="dog"><img src="assets\doggos.png" width="320" height="200" alt="dogs in a backyard with a women on a swing"></td>
+        <td class="sword"><img src="assets\sworddsf.jpg" width="260" height="360" alt="sword design"></td>
         <!--Inspired by Demon Slayer-->
-        <th> <a href ="https://kimetsu-no-yaiba.fandom.com/wiki/Kimetsu_no_Yaiba_Wiki"><img src="assets\main.jpg" width="260" height="360" alt="character design project"></a></td>
+        <th class="girl"> <a href ="https://kimetsu-no-yaiba.fandom.com/wiki/Kimetsu_no_Yaiba_Wiki"><img src="assets\girlds.jpg" width="260" height="360" alt="character design project"></a></td>
          <!--Inspired by Demon Slayer-->
       </tr>
     </table>
     </aside>
     <h3> My School Schedule: </h3>
-  <table border="1">
-    <tr>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesday</th>
-      <th>Thurday</th>
-      <th>Friday</th>
+  <table class="Schedule">
+    <thead>
+      <tr class="table-row2">
+        <th> Day </th>
+        <th> Classes</th>
+        <th> Morning </th>
+        <th> </th>
+        <th> Classes </th>
+        <th> After</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-row2">
+        <td> Monday</td>
+        <td> Tech Com </td>
+        <td> 11am</td>
+        <td> 12:30pm </td>
+        <td> Web Com</td>
+        <td> 2pm </td>
+        <td> 4:50pm </td>
+     </tr>
+    </tbody>
+    <tbody>
+      <tr class="table-row2">
+        <td>Tuesday</td>
+        <td></td>
+        <td>No </td>
+        <td> School </td>
+        <td> </td>
+     </tr>
+     <tr class="table-row2">
+      <td>Wednesday</td>
+      <td> Critical</td>
+      <td> 1pm </td>
+      <td> 2:50pm </td>
+      <td> Tech Com </td>
+      <td> 3pm </td>
+      <td> 4:50pm </td>
+   </tr>
+   <tr class="table-row2">
+      <td>Thursday</td>
+      <td> Visual Com </td>
+      <td> 8am </td>
+      <td> 10:50am </td>
+      <td> Digial Media</td>
+      <td> 12pm </td>
+      <td> 2:50pm </td>
     </tr>
-    <tr>
-      <td> 10am - 12:50pm 2pm - 5pm</td>
-      <td> No School</td>
-      <td> 1pm - 2:50pm 3pm - 4:50pm </td>
-      <td> 8am - 10:50am 12pm - 2:50pm </td>
-      <td> 10am - 11:50am </td>
+    <tr class="table-row2">
+      <td>Friday</td>
+      <td> Critical </td>
+      <td> 10am </td>
+      <td> 11:50am </td>
+      <td> </td>
     </tr>
+    </tbody>
   </table>
-  <footer>
+  <section id class="contacts">
     <h3 id="contact">Contact Info:</h3>
-    <p><a href ="https://www.instagram.com/bunnii.kel/"> Instagram </a></p>
-    <p><a href ="https://www.twitch.tv/angxliccx"> Twitch </a></p>
+    <p class="media"><i class="fab fa-instagram"></i><a href ="https://www.instagram.com/bunnii.kel/"> Instagram </a></p>
+    <p class="media"><i class="fab fa-pinterest"></i><a href ="https://www.pinterest.ca/xAngxliccx/"> Pinterest </a></p>
+    <p class="media"><i class="fab fa-github"></i><a href ="https://github.com/angxlicx"> Github </a></p>
+  </section>
+
+  <footer class="footer">
     &copy; Kelly Hoang 2023, all right reserved.
   </footer>
 <!--showing how to cogit -->

@@ -1,0 +1,113 @@
+body 
+    {
+    background-color: rgb(241, 241, 247);
+    } 
+/* Navigation bar and title */
+.navbar { margin-top: 30px;
+    letter-spacing: -1px
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;background-color: #d8c2dc;
+    padding: 40px;
+    text-align: center;
+    color: #7d70a6;
+    }  
+.ul li {
+        list-style: none;
+    }
+.pop {width: 120px;
+    cursor: pointer;
+    }
+.portfolio {margin: 0 auto;
+    margin-top: -65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+ h1 {
+     width: 230px;
+     background-color: #7d70a6;
+    color: #ffffff;
+    }  
+    /*Biography*/
+#Bio {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#goals {
+    width: 60px;
+    border: solid rgb(40, 71, 112); 
+    }
+    /* Design */
+#design {
+     width: 70px;
+     border: solid rgb(40, 71, 112); 
+    }
+.flowers {
+    border-radius: 30px; 
+    display: block;
+    border: 4px solid,#000000; 
+    }
+    /* schedule */
+.Schedule{
+    border-collapse: collapse;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.15);
+    }
+.Schedule td, th{
+    text-align: left;
+    padding: 8px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    /* Contact */
+
+.contacts p a{list-style: none;
+    margin: 0 20px;
+
+    }
+#contact {
+    width: 110px;
+     border: solid rgb(40, 71, 112); 
+     }
+h3 {
+    width: 110px;
+     border: solid rgb(40, 71, 112); 
+    }
+    /* Media */
+.media {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    padding: 0;
+    display: inline-block;
+    background-color:#ede1f5;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    }
+
+.media a{
+    display: block;
+}
+/* end */
+.footer { display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #d8c2dc;
+    padding: 40px;
+    text-align: center;
+    color: #7d70a6;
+}
+
+@media (min-width: 600px) {
+    body {
+      background-color:  rgb(241, 241, 247); /* Background color for screens larger than 600px */
+    }
+}
