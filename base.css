@@ -3,13 +3,14 @@ body
     background-color: rgb(241, 241, 247);
     } 
 /* Navigation bar and title */
-.navbar { margin-top: 30px;
-    letter-spacing: -1px
-    margin: 0 auto;
+.navbar {
+    margin-top: 30px;
+    letter-spacing: -1px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0;background-color: #d8c2dc;
+    padding: 0;
+    background-color: #d8c2dc;
     padding: 40px;
     text-align: center;
     color: #7d70a6;
@@ -43,11 +44,19 @@ body
      width: 70px;
      border: solid rgb(40, 71, 112); 
     }
-.flowers {
-    border-radius: 30px; 
-    display: block;
-    border: 4px solid,#000000; 
-    }
+
+.images img{
+    border: 4px solid #000000;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.images{
+    display:flex;
+}
+
     /* schedule */
 .Schedule{
     border-collapse: collapse;
