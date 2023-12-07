@@ -1,4 +1,5 @@
 console.log("Hello World")
+<<<<<<< Updated upstream
 
 // copyright date changes
 var year = new Date().getFullYear();
@@ -63,3 +64,5 @@ button.addEventListener('click', function() {
    // append the <li> element to the ordered list
    numbersList.appendChild(listItem);
  }
+=======
+>>>>>>> Stashed changes
