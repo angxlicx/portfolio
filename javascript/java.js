@@ -49,17 +49,14 @@ button.addEventListener('click', function() {
   alert('LOL just kidding! (>▽<)');
 });
 
- // Get the ordered list element by its id
+// loop
  var numbersList = document.getElementById('numbers');
 
- // Use a for loop to create 100 <li> elements
  for (let i = 1; i <= 100; i++) {
-   // create a new <li> element with the createElement() document method
+
    var listItem = document.createElement('li');
    
-   // set the text content of the new <li> element based on even or odd index
    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
 
-   // append the <li> element to the ordered list
    numbersList.appendChild(listItem);
  }
