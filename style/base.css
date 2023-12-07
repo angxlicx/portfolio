@@ -105,7 +105,8 @@ h3 {
     display: block;
 }
 /* end */
-.footer { display: flex;
+#footer { 
+    display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0;
